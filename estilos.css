@@ -45,12 +45,19 @@ body {
   padding-left:150px;
 }
 
+.tablacontacto{
+  width:700px;
+}
+
 @media only screen and (max-width: 600px) {
   .footint{
 		padding-top:300px;
   }
   .textos-Servicios{
     padding-left:20px;
+  }
+  .tablacontacto{
+    width:350px;
   }
 }
 
@@ -116,7 +123,7 @@ body {
 	padding-left:15px;
 }
 
-.3puntitos{
+.puntitos3{
 	background-color:#e74431;
 	width:10px;
 	height:10px;
@@ -128,6 +135,11 @@ body {
 	padding-bottom:10px;
 	padding-left:10px;
 	padding-right:10px;
+}
+
+.separacionesancho{
+	padding-left:5px;
+	padding-right:20px;
 }
 
 .image {
@@ -142,3 +154,16 @@ body {
     z-index: 1;
 }
 
+ul {
+  list-style-image: url('./Imagenes/Logistica/4b_LogisticaOrangePoint-02.png');
+}
+
+li{
+  margin-bottom: -40px;
+  margin-top:0px;
+}
+
+#textoaparece{
+  background-color: transparent;
+  height: 0px;
+}

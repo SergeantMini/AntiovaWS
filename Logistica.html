@@ -1,0 +1,169 @@
+<!doctype html>
+
+<html lang="en">
+	<head>
+		
+		<meta charset="utf-8">
+		<title>Grupo Antiova</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+
+		<link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&display=swap" rel="stylesheet"> 
+		<link rel="stylesheet" type="text/css" href="estilos.css">
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+		<link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" rel="stylesheet" />
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+	</head>
+
+	<body style="overflow-x:hidden;">
+		<!-- responsive top menu -->
+		<div class="topnav" id="myTopnav" align="right" 
+			style="background-size: cover;
+				background-repeat: no-repeat;
+				min-height:500px;">
+			<style>
+				@media only screen and (max-width: 499px) {
+					.topnav{
+						background-image: url('./Imagenes/Logistica/3a_Airplane.jpg');
+					}
+				}
+				@media only screen and (min-width: 768px) {
+					.topnav{
+						background-image: url('./Imagenes/Logistica/4a_LogisticaHeader.jpg');
+					}
+				}
+			</style>
+			<a href="#home">
+				<div align="center" id="textologomenu">
+					
+				</div></a>
+			<div class="topnav-right">
+				<a style="visibility: hidden;" href="#Inicio"></a>
+				<a href="#Inicio" onClick="location.href='main.html'">¿Quiénes somos?</a>
+				<a href="#Bio" onClick="location.href='Servicios.html'">Servicios</a>
+				<a href="#Escritos" onClick="location.href='GestionAduanera.html'">Gestión Aduanera</a>
+				<a href="#MiTrabajo" class="active" onClick="location.href='logistica.html'">Logística</a>
+				<a href="#Fotos" onClick="location.href='Presencia.html'">Presencia</a>
+				<a href="#Contacto" onClick="location.href='contacto.html'">Contacto</a>
+			</div>
+			<a href="javascript:void(0);" class="icon" onclick="myFunction()">
+				<i class="fa fa-bars"></i>
+			</a>
+		</div>		
+		<script>
+			/* Toggle between adding and removing the "responsive" class to topnav when the user clicks on the icon */
+			function myFunction() {
+			  var x = document.getElementById("myTopnav");
+			  if (x.className === "topnav") {
+				x.className += " responsive";
+			  } else {
+				x.className = "topnav";
+			  }
+			}
+		</script>
+		
+		<div style="background-color:#e6e6e6">
+			<div class="container" align="center">
+				<table style="margin-top:15px;margin-bottom:15px;">
+					<th style="border-right: 3px solid #e74431">
+						<div class="divtablaqs">
+							<h1 style="font-weight:bold;font-size:3em;">
+								Logística
+							</h1>
+						</div>
+					</th>
+					<th>
+						<div style="padding-left:15px;padding-top:10px;">
+							<p style="font-size:1.5em;">
+								Empresarial · Nacional · Internacional
+							</p>
+						</div>
+					</th>
+				</table>
+			</div>
+		</div>
+		
+		<br><br><br>
+		
+		<div>
+			<div class="container" align="center">				
+				<div class="col-sm-6">
+					<p class="textos202" style="font-weight: 600;">
+						Nuestros años de experiencia en Logística, nos han orillado a buscar la excelencia y estar a la vanguardia.
+					</p>
+                    <br>
+                    <hr align="left" style="background-color: #e74431;width:70%;height:2px;"/>
+
+					<br>
+
+					<script>
+							$(window).on('scroll', function() {
+							var scrollTop = $(window).scrollTop();
+
+							if (scrollTop >= 200 && scrollTop <= 600) {
+								$('#textoaparece').stop().animate({height: "600px"}, 3000);
+							} else {
+								$('#textoaparece').stop().animate({height: "600px"}, 3000);   
+							}
+						});
+					</script>
+
+					<div id="textoaparece">
+						<p class="textos202">
+							Las modalidades en las que nos hemos especializado son las siguientes:
+							<ul class="textos202" style="white-space: pre-wrap;text-align: left;font-weight: 600;"><li>Marítimo
+									<p style="font-weight: 400;margin-top:-30px;margin-bottom:-40px;">FCL (Contenedores completos de 20, 40 y 40 HC)
+LCL (Carga consolidada)
+ISOTANQUES (Transportación de líquidos)</p></li>
+								<li>Multimodal
+									<p style="font-weight: 400;margin-top:-30px;margin-bottom:-40px;">FFCC (Ferrocarril)
+FTL (Caja seca)
+LTL (Carga Consolidada)</p></li>
+								<li>Aéreo</li>
+								<li>Terrestre</li>
+							  </ul>
+						</p>
+					</div>
+				</div>
+				
+				<div class="col-sm-6">
+					<div>
+						<img class="img-fluid" style="padding-top:10px;height:600px;" src="./Imagenes/Logistica/4a_Logistica.jpg" align="center">
+					</div>
+				</div>
+			</div>
+		</div>
+		
+		<br><br>
+		
+		<div class="container" align="left">
+			<img class="img-fluid" src="./Imagenes/Logistica/4c_LogisticaTextBar-02.png">
+		</div>
+
+        <br><br><br>
+		
+		<footer style="background-color:#e6e6e6">
+			<div class="container" align="center">
+				<table style="margin-top:3px;margin-bottom:3px;">
+					<th style="border-right: 2px solid #294462">
+						<div class="divtablaqs">
+							<p style="font-size:1em">
+								informacion@grupoantiova.com
+							</p>
+						</div>
+					</th>
+					<th>
+						<div style="padding-left:15px;">
+							<p style="font-size:1em;">
+								+52 (222) 622 2646
+							</p>
+						</div>
+					</th>
+				</table>
+			</div>
+		</footer>
+		
+	</body>
+</html>

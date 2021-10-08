@@ -18,9 +18,21 @@
 	</head>
 
 	<body style="overflow-x:hidden;">
+		<style>
+			@media only screen and (max-width: 499px) {
+				.topnav{
+					background-image: url('./Imagenes/Presencia/2_Presencia-HeaderVertical.jpg');
+				}
+			}
+			@media only screen and (min-width: 768px) {
+				.topnav{
+					background-image: url('./Imagenes/2_PresenciaHeader.jpg');
+				}
+			}
+		</style>
 		<!-- responsive top menu -->
 		<div class="topnav navbar-light" id="myTopnav" align="right" 
-			style="background-image: url('./Imagenes/2_PresenciaHeader.jpg');
+			style="
 				background-size: 100% 100%;
 				background-repeat: no-repeat;
 				min-height:500px;">
@@ -33,7 +45,7 @@
 				<a style="visibility: hidden;" href="#Inicio"></a>
 				<a href="#Inicio" onClick="location.href='main.html'">¿Quiénes somos?</a>
 				<a href="#Bio" onClick="location.href='Servicios.html'">Servicios</a>
-				<a href="#Escritos" onClick="location.href='gestionAduanera.html'">Gestión Aduanera</a>
+				<a href="#Escritos" onClick="location.href='GestionAduanera.html'">Gestión Aduanera</a>
 				<a href="#MiTrabajo" onClick="location.href='logistica.html'">Logística</a>
 				<a href="#Fotos" class="active" onClick="location.href='Presencia.html'">Presencia</a>
 				<a href="#Contacto" onClick="location.href='contacto.html'">Contacto</a>
@@ -139,29 +151,34 @@
 				<img class="imageTwo image" src="./Imagenes/Presencia/PresenciaTerrestre.png" style="width:100%;">
 				<img class="imageTwo image" src="./Imagenes/Presencia/IconosAduanas.png" style="width:100%;">
 				<!--img class="imageTwo image" src="./Imagenes/Presencia/OficinaMatriz.png" style="width:100%;"-->
-				<div class="footint">
-					<footer style="background-color:#e6e6e6;">
-						<div class="container" align="center">
-							<table style="margin-top:5px;margin-bottom:5px;">
-								<th style="border-right: 2px solid #294462">
-									<div class="divtablaqs">
-										<p style="font-size:1em">
-											informacion@grupoantiova.com
-										</p>
-									</div>
-								</th>
-								<th>
-									<div style="padding-left:15px;">
-										<p style="font-size:1em;">
-											+52 (222) 622 2646
-										</p>
-									</div>
-								</th>
-							</table>
-						</div>
-					</footer>
-				</div>
 			</div>
+		</div>
+
+			<style>
+				
+			</style>
+		<div class="footint">
+			<footer style="background-color:#e6e6e6;grid-row-start: 2;
+			grid-row-end: 3;">
+				<div class="container" align="center">
+					<table style="margin-top:5px;margin-bottom:5px;">
+						<th style="border-right: 2px solid #294462">
+							<div class="divtablaqs">
+								<p style="font-size:1em">
+									informacion@grupoantiova.com
+								</p>
+							</div>
+						</th>
+						<th>
+							<div style="padding-left:15px;">
+								<p style="font-size:1em;">
+									+52 (222) 622 2646
+								</p>
+							</div>
+						</th>
+					</table>
+				</div>
+			</footer>
 		</div>
 		
 	</body>
