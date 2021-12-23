@@ -20,25 +20,37 @@
 	<body style="overflow-x:hidden;">
 		<!-- responsive top menu -->
 		<div class="topnav" id="myTopnav" align="right" 
-			style="background-image: url('./Imagenes/Contacto/6_Contacto-Header.jpg');
-				background-size: 100% 100%;
+			style="background-size: cover;
+				background-position: 50% 50%;
 				background-repeat: no-repeat;
 				min-height:500px;">
+			<style>
+				@media only screen and (max-width: 499px) {
+					.topnav{
+						background-image: url('./Imagenes/Contacto/6_Contacto-Celular.jpg');
+					}
+				}
+				@media only screen and (min-width: 768px) {
+					.topnav{
+						background-image: url('./Imagenes/Contacto/6_Contacto-Header.jpg');
+					}
+				}
+			</style>
 			<a href="#home">
 				<div align="center" id="textologomenu">
 					
 				</div></a>
 			<div class="topnav-right">
 				<a style="visibility: hidden;" href="#Inicio"></a>
-				<a href="#Inicio" onClick="location.href='main.html'">¿Quiénes somos?</a>
+				<a href="#Inicio" onClick="location.href='home.html'">¿Quiénes somos?</a>
 				<a href="#Bio" onClick="location.href='Servicios.html'">Servicios</a>
 				<a href="#Escritos" onClick="location.href='GestionAduanera.html'">Gestión Aduanera</a>
-				<a href="#MiTrabajo" onClick="location.href='logistica.html'">Logística</a>
+				<a href="#MiTrabajo" onClick="location.href='Logistica.html'">Logística</a>
 				<a href="#Fotos" onClick="location.href='Presencia.html'">Presencia</a>
-				<a href="#Contacto" class="active" onClick="location.href='contacto.html'">Contacto</a>
+				<a href="#Contacto" class="active" onClick="location.href='Contacto.html'">Contacto</a>
 			</div>
 			<a href="javascript:void(0);" class="icon" onclick="myFunction()">
-				<i class="fa fa-bars"></i>
+				<i class="fa fa-bars" style="color:white;"></i>
 			</a>
 		</div>		
 		<script>
@@ -85,10 +97,10 @@
                         </p>
                         <br>
                         <p class="textos202" style="white-space: pre-wrap;"><span style="font-weight: 600;">GRUPO ANTIOVA</span>
-29 Sur 3907 - Int. 2
-Col. Las Ánimas
-Puebla, PUE. México
-C.P. 72400</p>
+Calle Columnario 215
+Col. Real del Monte
+Puebla, PUE, México.
+CP. 72060</p> 	
                         <img style="margin-left:-60px;margin-top:-20px;" src="Imagenes/Presencia/3Puntos.png" align="left">
 						<table style="margin-left:-50px;">
 							<tr>
@@ -105,7 +117,7 @@ C.P. 72400</p>
 									</div>
 								</th>
 							</tr>
-							<tr>
+							<!--tr>
 								<td>
 									<div class="separaciones">
 										<img src="Imagenes/Contacto/6_Contacto-Phone-02.png">
@@ -118,7 +130,7 @@ C.P. 72400</p>
 										</p>
 									</div>
 								</td>
-							</tr>
+							</tr-->
 
 						</table>
                     </div>
@@ -136,7 +148,7 @@ C.P. 72400</p>
 							<tr>
 								<td>
 									<div class="separaciones" style="margin-top:20px;">
-										<form target="_blank" action="https://formsubmit.co/mones_9995@hotmail.com" method="POST">
+										<form target="_blank" action="https://formsubmit.co/informacion@grupoantiova.com" method="POST">
 											<div class="form-group">
 											  <div class="form-row">
 												<div class="col">
@@ -179,6 +191,16 @@ C.P. 72400</p>
 		
 		<div align="CENTER">
 			<iframe 
+				src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3770.931264349808!2d-98.22516874899253!3d19.066759487029834!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85cfc6cd1d6ad0eb%3A0xadad268a25e65629!2sColumnario%20215%2C%20Real%20del%20Monte%2C%2072060%20Puebla%2C%20Pue.!5e0!3m2!1ses-419!2smx!4v1635887177899!5m2!1ses-419!2smx" 
+				width="80%" 
+				height="350" 
+				frameborder="0" 
+				scrolling="no" 
+				marginheight="0" 
+				marginwidth="0" 
+				loading="lazy">
+			</iframe>
+			<!--iframe 
 				width="80%" 
 				height="350" 
 				frameborder="0" 
@@ -187,31 +209,19 @@ C.P. 72400</p>
 				marginwidth="0" 
 				src="https://www.openstreetmap.org/export/embed.html?bbox=-98.22952955961229%2C19.039087161931874%2C-98.22747498750688%2C19.0406033733234&amp;layer=mapnik&amp;marker=19.039845269358487%2C-98.22850227355957" 
 				style="border: 0px solid black">
-			</iframe>
-			<br/><small><a href="https://www.openstreetmap.org/?mlat=19.03985&amp;mlon=-98.22850#map=19/19.03985/-98.22850">
-				Ver mapa más grande</a></small>
+			</iframe-->
+			<br/>
 		</div>
 
         <br><br><br>
 		
-		<footer style="background-color:#e6e6e6">
+		<footer style="background-color:#e6e6e6;">
 			<div class="container" align="center">
-				<table style="margin-top:3px;margin-bottom:3px;">
-					<th style="border-right: 2px solid #294462">
-						<div class="divtablaqs">
-							<p style="font-size:1em">
-								informacion@grupoantiova.com
-							</p>
-						</div>
-					</th>
-					<th>
-						<div style="padding-left:15px;">
-							<p style="font-size:1em;">
-								+52 (222) 622 2646
-							</p>
-						</div>
-					</th>
-				</table>
+				<div class="separaciones">
+					<p style="font-size:1.1em;margin-top: 10px;">
+						informacion@grupoantiova.com
+					</p>
+				</div>
 			</div>
 		</footer>
 		

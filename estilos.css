@@ -11,6 +11,7 @@ body {
 .topnav {
   overflow: hidden;
   background-color: #FFF;
+  color: #FFF important!;
 }
 
 .topnav a {
@@ -46,7 +47,11 @@ body {
 }
 
 .tablacontacto{
-  width:700px;
+  background-color: transparent;
+}
+
+#imagenlogisticamob{
+  max-height: 600px;
 }
 
 @media only screen and (max-width: 600px) {
@@ -57,7 +62,10 @@ body {
     padding-left:20px;
   }
   .tablacontacto{
-    width:350px;
+    width:300px;
+  }
+  #imagenlogisticamob{
+    margin-top:50px;
   }
 }
 
@@ -65,6 +73,9 @@ body {
 	.footint{
 			padding-top:900px;
 	  }
+    .tablacontacto{
+      width:700px;
+    }
 }
 
 @media screen and (max-width: 600px) {

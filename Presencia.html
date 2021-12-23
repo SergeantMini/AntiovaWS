@@ -31,7 +31,7 @@
 			}
 		</style>
 		<!-- responsive top menu -->
-		<div class="topnav navbar-light" id="myTopnav" align="right" 
+		<div class="topnav navbar-dark" id="myTopnav" align="right" 
 			style="
 				background-size: 100% 100%;
 				background-repeat: no-repeat;
@@ -43,15 +43,15 @@
 			</a>
 			<div class="topnav-right">
 				<a style="visibility: hidden;" href="#Inicio"></a>
-				<a href="#Inicio" onClick="location.href='main.html'">¿Quiénes somos?</a>
+				<a href="#Inicio" onClick="location.href='home.html'">¿Quiénes somos?</a>
 				<a href="#Bio" onClick="location.href='Servicios.html'">Servicios</a>
 				<a href="#Escritos" onClick="location.href='GestionAduanera.html'">Gestión Aduanera</a>
-				<a href="#MiTrabajo" onClick="location.href='logistica.html'">Logística</a>
+				<a href="#MiTrabajo" onClick="location.href='Logistica.html'">Logística</a>
 				<a href="#Fotos" class="active" onClick="location.href='Presencia.html'">Presencia</a>
-				<a href="#Contacto" onClick="location.href='contacto.html'">Contacto</a>
+				<a href="#Contacto" onClick="location.href='Contacto.html'">Contacto</a>
 			</div>
 			<a href="javascript:void(0);" class="icon" onclick="myFunction()">
-				<i class="fa fa-bars"></i>
+				<i class="fa fa-bars" style="color:white;"></i>
 			</a>
 		</div>		
 		<script>
@@ -90,67 +90,75 @@
 		<br><br><br>
 		
 		<div>
-			<div class="container" style="text-align:center;" align="center">
+			<div class="container" style="text-align:center;width:80%;" align="center">
 				<div class="col-sm-4">
 					<div class="tarjetasPresencia">
-						<img src="./Imagenes/Presencia/Airplane.png" style="max-width:300px;">
+						<img src="./Imagenes/Presencia/V2_Avion-02-02.png" style="max-width:180px;">
+						<p class="titulos30Prsnc">
+							Aduanas <br>Aéreas
+						</p>
+						<hr style="border-top: 2px solid #e74431; width: 40%;">
 						<br>
-						<h2 class="titulos30Prsnc">
-							Aduanas</br> Aéreas
-						</h2>
-						<hr style="border-top: 2px solid #e74431; width: 40%;">
-						<p class="textos20">
-							C.D. de México </br>
-							Gudalajara </br>
-							Querétaro </br>
-							Toluca
-						</p>
+						<p class="textos20" style="white-space: pre-wrap;">C.D. de México
+Gudalajara
+Querétaro
+Toluca</p>
 					</div>
 				</div>
 				<div class="col-sm-4">
 					<div class="tarjetasPresencia">
-						<img src="./Imagenes/Presencia/Truck.png" style="max-width:180px;padding-top:20px;">
-						<br><br>
-						<h2 class="titulos30Prsnc">
-							Aduanas</br> Terrestres
-						</h2>
-						<hr style="border-top: 2px solid #e74431; width: 40%;">
-						<p class="textos20">
-							Tijuana </br>
-							Nuevo Laredo </br>
-							Piedras Negras </br>
-							Colombia, Nuevo León </br>
-							Ciudad Hidalgo, Chiapas
+						<img src="./Imagenes/Presencia/V2_Camion-02-02.png" style="max-width:180px;">
+						<p class="titulos30Prsnc">
+							Aduanas <br>Terrestres
 						</p>
+						<hr style="border-top: 2px solid #e74431; width: 40%;">
+						<br>
+						<p class="textos20" style="white-space: pre-wrap;">Tijuana
+Nuevo Laredo
+Piedras Negras
+Colombia, N.L.
+Cd. Hidalgo, Chiapas</p>
 					</div>
 				</div>
 				<div class="col-sm-4">
 					<div class="tarjetasPresencia">
-						<img src="./Imagenes/Presencia/Ship.png" style="max-width:190px;padding-top:20px;">
-						<br><br>
-						<h2 class="titulos30Prsnc">
-							Aduanas</br> Marítimas
-						</h2>
-						<hr style="border-top: 2px solid #e74431; width: 40%;">
-						<p class="textos20">
-							Veracruz </br>
-							Manzanillo </br>
-							Altamira </br>
-							Lázaro Cárdenas
+						<img src="./Imagenes/Presencia/V2_Barco-02-02.png" style="max-width:180px;">
+						<p class="titulos30Prsnc">
+							Aduanas <br>Marítimas
 						</p>
+						<hr style="border-top: 2px solid #e74431; width: 40%;">
+						<br>
+						<p class="textos20" style="white-space: pre-wrap;">Veracruz
+Manzanillo 
+Altamira
+Lázaro Cárdenas</p>
 					</div>
 				</div>
 			</div>
 			<div align="center">
 				<img align="center" src="./Imagenes/Presencia/3Puntos.png">
 			</div>
-			<div class="relative">
+			<style>
+				@-webkit-keyframes fadein{
+					from{
+					opacity: 0;
+					visibility: hidden;
+					}
+					to{
+						opacity: 1;
+						visibility: visible;
+					}
+				}
+			</style>
+			<dvi class="relative">
 				<img class="imageOne image" src="./Imagenes/Presencia/MapaPresencia.png" style="width:100%;">
+				<img class="imageTwo image" src="./Imagenes/Presencia/IconosAduanas.png" style="width:100%;">
+				<!--img class="imageTwo image" src="./Imagenes/Presencia/OficinaMatriz.png" style="width:100%;"-->
+			</dvi>
+			<div class="relative" style="-webkit-animation: fadein 3s linear 1 normal forwards;animation-delay: 2.2s;opacity:0;">
 				<img class="imageTwo image" src="./Imagenes/Presencia/PresenciaAerea.png" style="width:100%;">
 				<img class="imageTwo image" src="./Imagenes/Presencia/PresenciaMaritima.png" style="width:100%;">
 				<img class="imageTwo image" src="./Imagenes/Presencia/PresenciaTerrestre.png" style="width:100%;">
-				<img class="imageTwo image" src="./Imagenes/Presencia/IconosAduanas.png" style="width:100%;">
-				<!--img class="imageTwo image" src="./Imagenes/Presencia/OficinaMatriz.png" style="width:100%;"-->
 			</div>
 		</div>
 
@@ -166,13 +174,6 @@
 							<div class="divtablaqs">
 								<p style="font-size:1em">
 									informacion@grupoantiova.com
-								</p>
-							</div>
-						</th>
-						<th>
-							<div style="padding-left:15px;">
-								<p style="font-size:1em;">
-									+52 (222) 622 2646
 								</p>
 							</div>
 						</th>
