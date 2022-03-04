@@ -31,11 +31,15 @@
 			<div class="topnav-right">
 				<a style="visibility: hidden;" href="#Inicio"></a>
 				<a href="#Inicio" onClick="location.href='home.html'">¿Quiénes somos?</a>
-				<a href="#Bio" onClick="location.href='Servicios.html'">Servicios</a>
-				<a href="#Escritos" class="active" onClick="location.href='GestionAduanera.html'">Gestión Aduanera</a>
-				<a href="#MiTrabajo" onClick="location.href='Logistica.html'">Logística</a>
-				<a href="#Fotos" onClick="location.href='Presencia.html'">Presencia</a>
+				<a href="#Servicios" onClick="location.href='Servicios.html'">Servicios</a>
+				<a href="#GestAd" class="active" onClick="location.href='GestionAduanera.html'">Gestión Aduanera</a>
+				<a href="#Logistica" onClick="location.href='Logistica.html'">Logística</a>
+				<a href="#Presencia" onClick="location.href='Presencia.html'">Presencia</a>
 				<a href="#Contacto" onClick="location.href='Contacto.html'">Contacto</a>
+				<a href="https://www.facebook.com/grupoantiova/" target="_blank"><img style="max-width:25px;" src="./Imagenes/Icon_Facebook.png"/></a>
+				<a href="https://www.instagram.com/grupoantiova/?hl=es" target="_blank"><img style="max-width: 25px;" src="./Imagenes/Icon_IG.png"></a>
+				<a href="https://mx.linkedin.com/in/antiova-logistics-9904081a7" target="_blank"><img style="max-width: 25px;" src="./Imagenes/Icon_Linkedin.png"/></a>
+				<a href="#Idioma" onclick="location.href='/ENG/CustomsManagement.html'"><span style="cursor:initial;color:white;font-weight: 700;">ESP	|	</span><span style="font-weight:100;color:white;">ENG</span></a>
 			</div>
 			<a href="javascript:void(0);" class="icon" onclick="myFunction()">
 				<i class="fa fa-bars" style="color:white;"></i>
@@ -92,12 +96,101 @@
 
             <br><br>
 
+			<div class="container">
+				<div class="col-sm-8">
+					<p class="titulos30" style="font-weight: 600;text-align: left;">
+						¡Solicita tu cotización!
+					</p>
+						<br>
+						<form target="_blank" action="https://formsubmit.co/a.andrade@grupoantiova.com" method="POST">
+							<div class="form-group">
+							  <div class="form-row">
+								<div class="col">
+								  <input style="border-bottom: 2px solid #294462;" type="text" name="Nombre" class="form-control" placeholder="Nombre y/o Empresa" required>
+								</div>
+								<div class="col">
+								  <input style="border-bottom: 2px solid #294462;" type="tel" name="Horario" class="form-control" placeholder="Horario de contacto" required>
+								</div>
+							  </div>
+							</div>
+							<div class="form-group">
+								<div class="form-row">
+								  <div class="col">
+									<input style="border-bottom: 2px solid #294462;" type="text" name="Asunto" class="form-control" placeholder="Asunto" required>
+								  </div>
+								  <div class="col">
+									<input style="border-bottom: 2px solid #294462;" type="tel" name="Telefono" class="form-control" placeholder="Teléfono" required>
+								  </div>
+								</div>
+							  </div>
+							<div class="form-group">
+							  <textarea placeholder="Comentarios" class="form-control" name="Comentarios" rows="15" required
+									  style="border-bottom: 2px solid #294462;"></textarea>
+							</div>
+							<div class="form-row">
+							<div class="col-sm-8">
+							  <input type="email" name="e-mail" class="form-control" placeholder="Correo electrónico" required 
+									  style="border-bottom: 2px solid #294462;">
+							  </div>
+							  <div class="col-sm-4">
+								  <button type="submit" style="background-color:#294462;
+															border-radius: 0%;
+															height:35px;
+															width:100%;" 
+											class="btn btn-lg btn-dark btn-block">
+									ENVIAR
+								</button>
+							  </div>
+							</div>
+						  </form>
+					</p>
+				</div>
+
+				<div class="col-sm-4">
+					<br><br><br>
+					<div class="container" align="center" style="margin-top:50px;">
+						<table>
+							<tr>
+								<th>
+									<div class="container" style="border-left: 4px solid #e74431;padding-left: 70px;">
+										<img align="center" src="./Imagenes/GestAd/Logo_Bigleaper.png" style="width:185px;">
+									</div>
+								</th>
+							</tr>
+							<br>
+							<tr>
+								<th>
+									<div class="container" style="padding-top:20px;padding-left: 70px;">
+										<button style="background-color:#294462;border-radius: 0%;
+															height:35px;width:100%;" 
+															class="btn btn-lg btn-dark btn-block"
+															onClick="location.href='https://access.bigleaper.io/'">
+											INICIAR SESIÓN
+										</button>
+									</div>
+								</th>
+							</tr>
+						</table>
+					</div>
+				</div>
+			</div>
+
+			<br><br>
+
+			<div class="container" align="center">
+                <img class="img-fluid" src="Imagenes/Presencia/3Puntos.png">
+            </div>
+
+            <br><br>
+
 			<div class="container" align="center">				
 				<div class="col-sm-6">
 					<div class="container">
                         <img class="img-fluid" src="Imagenes/GestAd/3a_ShipV02-02.png">
                     </div>
 				</div>
+
+				
 				
 				<div class="col-sm-6">
 					<div class="container" style="border-left: 4px solid #e74431;margin-top:50px;">
@@ -168,7 +261,7 @@
 			<div class="container" align="center">
 				<div class="separaciones">
 					<p style="font-size:1.1em;margin-top: 10px;">
-						informacion@grupoantiova.com
+						informacion@grupoantiova.com  |  <span style="cursor: pointer;"><a href="./AVISO DE PRIVACIDAD PARA CLIENTES.pdf" download="AvisoDePrivacidad" style="color: #294462;">Aviso de Privacidad</a></span>
 					</p>
 				</div>
 			</div>
