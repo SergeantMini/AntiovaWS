@@ -1,0 +1,270 @@
+<!doctype html>
+
+<html lang="en">
+	<head>
+		
+		<meta charset="utf-8">
+		<title>Grupo Antiova</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+
+		<link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&display=swap" rel="stylesheet"> 
+		<link rel="stylesheet" type="text/css" href="/estilos.css">
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+		<link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" rel="stylesheet" />
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+	</head>
+
+	<body style="overflow-x:hidden;">
+		<!-- responsive top menu -->
+		<div class="topnav" id="myTopnav" align="right" 
+			style="background-image: url('/Imagenes/GestAd/3_Header.jpg');
+				background-size: cover;
+				background-repeat: no-repeat;
+				min-height:500px;">
+			<a href="#home">
+				<div align="center" id="textologomenu">
+					
+				</div></a>
+			<div class="topnav-right">
+				<a style="visibility: hidden;" href="#Inicio"></a>
+				<a href="#Inicio" onClick="location.href='home.html'">Who are we?</a>
+				<a href="#Services" onClick="location.href='Services.html'">Services</a>
+				<a href="#GestAd" class="active" onClick="location.href='CustomsManagement.html'">Customs Management</a>
+				<a href="#Logistica" onClick="location.href='Logistics.html'">Logistics</a>
+				<a href="#Presencia" onClick="location.href='Presence.html'">Presence</a>
+				<a href="#Contacto" onClick="location.href='Contact.html'">Contact</a>
+				<a href="https://www.facebook.com/grupoantiova/" target="_blank"><img style="max-width:25px;" src="/Imagenes/Icon_Facebook.png"/></a>
+				<a href="https://www.instagram.com/grupoantiova/?hl=es" target="_blank"><img style="max-width: 25px;" src="/Imagenes/Icon_IG.png"></a>
+				<a href="https://mx.linkedin.com/in/antiova-logistics-9904081a7" target="_blank"><img style="max-width: 25px;" src="/Imagenes/Icon_Linkedin.png"/></a>
+				<a href="#Idioma" onclick="location.href='/GestionAduanera.html'" style="font-weight: 100;">ESP<span style="cursor:initial;color:white;font-weight: 800;">	|	ENG</span></a>
+			</div>
+			<a href="javascript:void(0);" class="icon" onclick="myFunction()">
+				<i class="fa fa-bars" style="color:white;"></i>
+			</a>
+		</div>		
+		<script>
+			/* Toggle between adding and removing the "responsive" class to topnav when the user clicks on the icon */
+			function myFunction() {
+			  var x = document.getElementById("myTopnav");
+			  if (x.className === "topnav") {
+				x.className += " responsive";
+			  } else {
+				x.className = "topnav";
+			  }
+			}
+		</script>
+		
+		<div style="background-color:#e6e6e6">
+			<div class="container" align="center">
+				<table style="margin-top:15px;margin-bottom:15px;">
+					<th style="border-right: 3px solid #e74431">
+						<div class="divtablaqs">
+							<h1 style="font-weight:bold;font-size:3em;">
+								Customs Management
+							</h1>
+						</div>
+					</th>
+					<th>
+						<div style="padding-left:15px;padding-top:10px;">
+							<p style="font-size:1.5em;">
+								We have own offices on the principal custom offices in the country.
+							</p>
+						</div>
+					</th>
+				</table>
+			</div>
+		</div>
+		
+		<br><br><br>
+		
+		<div>
+            <div class="container">
+                <p class="textos20" style="font-weight: 600;text-align: center;">
+					We are backed up with 7 Broker licenses especialized for the different industrial sectors and hace eliminated 100% of the intermediaries that affect and make the operation of services more expensive.
+                </p>
+                <p class="textos20" style="text-align: center;">
+					Our team is made up from more than 900 professional collaborators on foreign trade, highly motivated, with vast experience and a tested willingness to serve.
+                </p>
+            </div>
+            
+            <div class="container" align="center">
+                <img class="img-fluid" src="/Imagenes/Presencia/3Puntos.png">
+            </div>
+
+            <br><br>
+
+			<div class="container">
+				<div class="col-sm-8">
+					<p class="titulos30" style="font-weight: 600;text-align: left;">
+						Ask for a quote!
+					</p>
+						<br>
+						<form target="_blank" action="https://formsubmit.co/a.andrade@grupoantiova.com" method="POST">
+							<div class="form-group">
+							  <div class="form-row">
+								<div class="col">
+								  <input style="border-bottom: 2px solid #294462;" type="text" name="Nombre" class="form-control" placeholder="Name and/or Company" required>
+								</div>
+								<div class="col">
+								  <input style="border-bottom: 2px solid #294462;" type="tel" name="Horario" class="form-control" placeholder="Contact times" required>
+								</div>
+							  </div>
+							</div>
+							<div class="form-group">
+								<div class="form-row">
+								  <div class="col">
+									<input style="border-bottom: 2px solid #294462;" type="text" name="Asunto" class="form-control" placeholder="Subject" required>
+								  </div>
+								  <div class="col">
+									<input style="border-bottom: 2px solid #294462;" type="tel" name="Telefono" class="form-control" placeholder="Telephone" required>
+								  </div>
+								</div>
+							  </div>
+							<div class="form-group">
+							  <textarea placeholder="Message..." class="form-control" name="Comentarios" rows="15" required
+									  style="border-bottom: 2px solid #294462;"></textarea>
+							</div>
+							<div class="form-row">
+							<div class="col-sm-8">
+							  <input type="email" name="e-mail" class="form-control" placeholder="e-mail address" required 
+									  style="border-bottom: 2px solid #294462;">
+							  </div>
+							  <div class="col-sm-4">
+								  <button type="submit" style="background-color:#294462;
+															border-radius: 0%;
+															height:35px;
+															width:100%;" 
+											class="btn btn-lg btn-dark btn-block">
+									SEND
+								</button>
+							  </div>
+							</div>
+						  </form>
+					</p>
+				</div>
+
+				<div class="col-sm-4">
+					<br><br><br>
+					<div class="container" align="center" style="margin-top:50px;">
+						<table>
+							<tr>
+								<th>
+									<div class="container" style="border-left: 4px solid #e74431;padding-left: 70px;">
+										<img align="center" src="/Imagenes/GestAd/Logo_Bigleaper.png" style="width:185px;">
+									</div>
+								</th>
+							</tr>
+							<br>
+							<tr>
+								<th>
+									<div class="container" style="padding-top:20px;padding-left: 70px;">
+										<button style="background-color:#294462;border-radius: 0%;
+															height:35px;width:100%;" 
+															class="btn btn-lg btn-dark btn-block"
+															onClick="location.href='https://access.bigleaper.io/'">
+											LOG IN
+										</button>
+									</div>
+								</th>
+							</tr>
+						</table>
+					</div>
+				</div>
+			</div>
+
+			<br><br>
+
+			<div class="container" align="center">
+                <img class="img-fluid" src="/Imagenes/Presencia/3Puntos.png">
+            </div>
+
+            <br><br>
+
+			<div class="container" align="center">				
+				<div class="col-sm-6">
+					<div class="container">
+                        <img class="img-fluid" src="/Imagenes/GestAd/3a_ShipV02-02.png">
+                    </div>
+				</div>
+
+				
+				
+				<div class="col-sm-6">
+					<div class="container" style="border-left: 4px solid #e74431;margin-top:50px;">
+                        <p class="titulos30" style="font-weight: 600;">
+                            Importing and Exporting
+                        </p>
+                        <table align="left">
+                            <tr>
+                                <td>
+                                    <div class="separacionesancho">
+                                        <p class="textos20">
+                                            • Definitive and/or temporal
+                                        </p>
+                                    </div>
+                                </td>
+                                <td>
+                                    <div class="separacionesancho">
+                                        <p class="textos20">
+                                            • Virtual operations
+                                        </p>
+                                    </div>
+                                </td>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <div class="separacionesancho">
+                                        <p class="textos20">
+                                            • Tax warehouses
+                                        </p>
+                                    </div>
+                                </td>
+                                <td>
+                                    <div class="separacionesancho">
+                                        <p class="textos20">
+                                            • IMMEX
+                                        </p>
+                                    </div>
+                                </td>
+                            </tr>
+                        </table>
+                    </div>
+
+                    <br><br>
+
+                    <div class="container" style="border-left: 4px solid #e74431;margin-top:50px;">
+                        <p class="titulos30" style="font-weight: 600;">
+                            Consultation
+                        </p>
+                        <p class="textos202" style="white-space: pre-wrap;">• Calculation of contributions
+• Tariff classification
+• Tax exemption
+• Foreign Trade Act and non-customs regulations
+• Free Trade Agreement
+• Export Promotion Project
+• General tax rules in terms of foreign trade
+• Official mexican norms and labeling.
+• Promotion programme</p>
+                    </div>
+				</div>
+			</div>
+		</div>
+		
+		<br><br><br><br><br>
+		
+		<footer style="background-color:#e6e6e6;">
+			<div class="container" align="center">
+				<div class="separaciones">
+					<p style="font-size:1.1em;margin-top: 10px;">
+						informacion@grupoantiova.com  |  <span style="cursor: pointer;"><a href="./AVISO DE PRIVACIDAD PARA CLIENTES.pdf" download="AvisoDePrivacidad" style="color: #294462;">Privacy Notice</a></span>
+					</p>
+				</div>
+			</div>
+		</footer>
+		
+	</body>
+</html>

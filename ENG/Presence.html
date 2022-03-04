@@ -1,0 +1,185 @@
+<!doctype html>
+
+<html lang="en">
+	<head>
+		
+		<meta charset="utf-8">
+		<title>Grupo Antiova</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+
+		<link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&display=swap" rel="stylesheet"> 
+		<link rel="stylesheet" type="text/css" href="/estilos.css">
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+		<link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" rel="stylesheet" />
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+	</head>
+
+	<body style="overflow-x:hidden;">
+		<style>
+			@media only screen and (max-width: 499px) {
+				.topnav{
+					background-image: url('/Imagenes/Presencia/2_Presencia-HeaderVertical.jpg');
+				}
+			}
+			@media only screen and (min-width: 768px) {
+				.topnav{
+					background-image: url('/Imagenes/2_PresenciaHeader.jpg');
+				}
+			}
+		</style>
+		<!-- responsive top menu -->
+		<div class="topnav navbar-dark" id="myTopnav" align="right" 
+			style="
+				background-size: 100% 100%;
+				background-repeat: no-repeat;
+				min-height:500px;">
+			<a href="#home">
+				<div align="center" id="textologomenu">
+					
+				</div>
+			</a>
+			<div class="topnav-right">
+				<a style="visibility: hidden;" href="#Inicio"></a>
+				<a href="#Inicio" onClick="location.href='home.html'">Who are we?</a>
+				<a href="#Services" onClick="location.href='Services.html'">Services</a>
+				<a href="#GestAd" onClick="location.href='CustomsManagement.html'">Customs Management</a>
+				<a href="#Logistica" onClick="location.href='Logistics.html'">Logistics</a>
+				<a href="#Presencia" class="active" onClick="location.href='Presence.html'">Presence</a>
+				<a href="#Contacto" onClick="location.href='Contact.html'">Contact</a>
+				<a href="https://www.facebook.com/grupoantiova/" target="_blank"><img style="max-width:25px;" src="/Imagenes/Icon_Facebook.png"/></a>
+				<a href="https://www.instagram.com/grupoantiova/?hl=es" target="_blank"><img style="max-width: 25px;" src="/Imagenes/Icon_IG.png"></a>
+				<a href="https://mx.linkedin.com/in/antiova-logistics-9904081a7" target="_blank"><img style="max-width: 25px;" src="/Imagenes/Icon_Linkedin.png"/></a>
+				<a href="#Idioma" onclick="location.href='/Presencia.html'" style="font-weight: 100;">ESP<span style="cursor:initial;color:white;font-weight: 800;">	|	ENG</span></a>
+			</div>
+			<a href="javascript:void(0);" class="icon" onclick="myFunction()">
+				<i class="fa fa-bars" style="color:white;"></i>
+			</a>
+		</div>		
+		<script>
+			/* Toggle between adding and removing the "responsive" class to topnav when the user clicks on the icon */
+			function myFunction() {
+			  var x = document.getElementById("myTopnav");
+			  if (x.className === "topnav") {
+				x.className += " responsive";
+			  } else {
+				x.className = "topnav";
+			  }
+			}
+		</script>
+		
+		<div style="background-color:#e6e6e6">
+			<div class="container" align="center">
+				<table style="margin-top:15px;margin-bottom:15px;">
+					<th style="border-right: 3px solid #e74431">
+						<div class="divtablaqs">
+							<h1 style="font-weight:bold;font-size:3em;">
+								Presence
+							</h1>
+						</div>
+					</th>
+					<th>
+						<div style="padding-left:15px;">
+							<p style="font-size:1.5em;">
+								We are present on the different and most important </br> customs offices of the Mexican Republic.
+							</p>
+						</div>
+					</th>
+				</table>
+			</div>
+		</div>
+		
+		<br><br><br>
+		
+		<div>
+			<div class="container" style="text-align:center;width:80%;" align="center">
+				<div class="col-sm-4">
+					<div class="tarjetasPresencia">
+						<img src="/Imagenes/Presencia/V2_Avion-02-02.png" style="max-width:180px;">
+						<p class="titulos30Prsnc">
+							Airborne <br>Customs
+						</p>
+						<hr style="border-top: 2px solid #e74431; width: 40%;">
+						<br>
+						<p class="textos20" style="white-space: pre-wrap;">Mexico City
+Gudalajara
+Querétaro
+Toluca</p>
+					</div>
+				</div>
+				<div class="col-sm-4">
+					<div class="tarjetasPresencia">
+						<img src="/Imagenes/Presencia/V2_Camion-02-02.png" style="max-width:180px;">
+						<p class="titulos30Prsnc">
+							Land <br>Customs
+						</p>
+						<hr style="border-top: 2px solid #e74431; width: 40%;">
+						<br>
+						<p class="textos20" style="white-space: pre-wrap;">Tijuana
+Nuevo Laredo
+Piedras Negras
+Colombia, N.L.
+Cd. Hidalgo, Chiapas</p>
+					</div>
+				</div>
+				<div class="col-sm-4">
+					<div class="tarjetasPresencia">
+						<img src="/Imagenes/Presencia/V2_Barco-02-02.png" style="max-width:180px;">
+						<p class="titulos30Prsnc">
+							Maritime <br>Customs
+						</p>
+						<hr style="border-top: 2px solid #e74431; width: 40%;">
+						<br>
+						<p class="textos20" style="white-space: pre-wrap;">Veracruz
+Manzanillo 
+Altamira
+Lázaro Cárdenas</p>
+					</div>
+				</div>
+			</div>
+			<div align="center">
+				<img align="center" src="/Imagenes/Presencia/3Puntos.png">
+			</div>
+			<style>
+				@-webkit-keyframes fadein{
+					from{
+					opacity: 0;
+					visibility: hidden;
+					}
+					to{
+						opacity: 1;
+						visibility: visible;
+					}
+				}
+			</style>
+			<dvi class="relative">
+				<img class="imageOne image" src="/Imagenes/Presencia/MapaPresencia.png" style="width:100%;">
+				<img class="imageTwo image" src="/Imagenes/Presencia/IconosAduanas.png" style="width:100%;">
+				<!--img class="imageTwo image" src="./Imagenes/Presencia/OficinaMatriz.png" style="width:100%;"-->
+			</dvi>
+			<div class="relative" style="-webkit-animation: fadein 3s linear 1 normal forwards;animation-delay: 2.2s;opacity:0;">
+				<img class="imageTwo image" src="/Imagenes/Presencia/PresenciaAerea.png" style="width:100%;">
+				<img class="imageTwo image" src="/Imagenes/Presencia/PresenciaMaritima.png" style="width:100%;">
+				<img class="imageTwo image" src="/Imagenes/Presencia/PresenciaTerrestre.png" style="width:100%;">
+			</div>
+		</div>
+
+			<style>
+				
+			</style>
+		<div class="footint">
+			<footer style="background-color:#e6e6e6;">
+			<div class="container" align="center">
+				<div class="separaciones">
+					<p style="font-size:1.1em;margin-top: 10px;">
+						informacion@grupoantiova.com  |  <span style="cursor: pointer;"><a href="./AVISO DE PRIVACIDAD PARA CLIENTES.pdf" download="AvisoDePrivacidad" style="color: #294462;">Privacy Notice</a></span>
+					</p>
+				</div>
+			</div>
+		</footer>
+		</div>
+		
+	</body>
+</html>
